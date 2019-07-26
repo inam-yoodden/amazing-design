@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* RESET CSS BEGIN */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*RESET CSS END*/
+
+
+/* HELPER CLASSES BEGIN */
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+/*HELPER CLASSES END*/
+
+
+/*HEADER SECTION START*/
+@font-face {
+    font-family: 'Lato-Regular';
+    src: local('Lato-Regular.ttf'), url('Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: local('Lato-Bold.ttf'), url('Lato-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: local('Lato-Light.ttf'), url('Lato-Light.ttf') format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+} 
+
+
+.container {
+	max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#start {
+	background: url('../img/cover-1.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	font-family: 'Lato-Regular';
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 56px;
+}
+
+.nav li:hover {
+	text-shadow: 0.5px 0.5px;
+	font-color: white;
+	transition: 0.2s;
+}
+.amazing-info {
+	text-align: center;
+}
+.amazing-info h2 {
+	font-family: 'Lato-Regular';
+	color: white;
+	font-size: 65px;
+	text-align: center;
+	padding-top: 175px;
+	font-weight: bold;
+}
+.amazing-info p {
+	font-family: 'Lato-Light';
+	color: #f5f2f9;
+	font-size: 33px;
+	padding-top: 20px;
+}
+.learn-more {
+	text-decoration: none;
+	text-align: center;
+	padding-top: 84px;
+	padding-bottom: 240px;
+}
+.learn-more a:hover {
+	font-weight: 900;
+	transition: 0.2s;
+}
+
+.learn-more .button {
+	font-family: 'Lato-Regular';
+	padding: 10px 24px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 50px;
+	color: white;
+	font-size: 18px;
+}
+.learn-more .button:hover {
+	border: 3px solid white;
+	transition: 0.2s;
+}
+
+/* WHAT WE DO */
+
+#whatwedo .container {
+    text-align: center;
+    padding: 40px 20px;
+}
+.col-4-app {
+    width: 50%;
+    float: left;
+    padding: 0px 45px;
+}
+.row {
+    overflow: hidden;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+.col-4-app h1 {
+	font-family: 'Lato-Bold';
+	color: #e1e1e1;
+    font-size: 125px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 175px;
+}
+.list-1,
+.list-2,
+.list-3,
+.list-4 {
+	margin-left: 50px;
+}
+.service-1,
+.service-2,
+.service-3,
+.service-4 {
+	position: absolute;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.list-para {
+	padding-top: -20px;
+	padding-left: 99.5px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.col-4-app h2 {
+	font-family: 'Lato-Bold';
+	font-size: 18px;
+	color: black;
+}
+.col-4-app h2:hover {
+	color: #503392;
+}
+
+
+/*HELP SECTION*/
+
+#customer {
+	background: url('../img/cover-2.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+#customer .container {
+	padding: 280px 0;
+}
+.customer-1 h2 {
+	font-family: 'Lato-Light';
+	color: #503392;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.para-1 {
+	max-width: 30%;
+	margin-bottom: 40px;
+}
+.para-1 p {
+	font-family: 'Lato-Regular';
+	font-size: 18px;
+}
+.customer-btn button {
+	font-size: 18px;
+	font-family: 'Lato-Regular';
+	padding: 15px 40px;
+	color: white;
+}
+.btn-1 {
+	background: #503392;
+
+}
+
+/*PORTFOLIO SECTION */
+
+#portfolio {
+	padding-top: 140px;
+	text-align: center;
+}
+.port-1 h1 {
+	font-family: 'Lato-Bold';
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+.port-1 p {
+	font-family: 'Lato-Regular';
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+.port-1 li {
+	list-style: none;
+	text-align: center;
+}
+.port-1 li a:hover {
+	background: #4e3391;
+	color: white;
+}
+.port-1 li a {
+	font-family: 'Lato-Regular';
+	text-decoration: none;
+	padding-right: 20px;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 15px;
+
+}
+
+
+.all-p,
+.web-p,
+.ui-p,
+.photo-p,
+.brand-p {
+	margin-left: 5px;
+}
+.port-img {
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 200px;
+}
+.img-1 img {
+	width: 20%;
+}
+
+/*FEEDBACK SECTION */
+
+#react {
+	background: url('../img/cover-3.png');
+	background-size: cover;
+	text-align: center;
+}
+.react-icons-1 {
+	width: 20%;
+	display: inline-block;
+	padding: 120px 0;
+}
+.react-icons-1 h2 {
+	font-family: 'Lato-Bold';
+	font-size: 35px;
+	color: white;
+	margin-top: 20px;
+}
+.react-icons-1 p {
+	font-family: 'Lato-Regular';
+	font-size: 20px;
+	color: white;
+}
+/*contact us Section*/
+
+
+#contact-us{
+	padding-bottom: 400px;
+	background: #232323;
+	color: white;
+}
+.contact-form {
+	color: white;
+	width: 50%;
+	float: left;
+}
+.heading-contact {
+	text-align: center;
+}
+.heading-contact h1 {
+	font-size: 50px;
+	font-family: 'Lato-Bold';
+	margin-bottom: 10px;
+}
+.heading-contact p {
+	font-size: 18px;
+	font-family: 'Lato-Regular';
+}
+.contact-h {
+	font-family: 'Lato-Regular';
+	font-size: 33px;
+	margin-bottom: 35px;
+	margin-top: 50px;
+}
+.contact-form input,textarea {
+	color: white;
+	background-color: transparent;
+	width: 80%;
+	margin-bottom: 5px;
+	padding: 10px;
+	outline: 0;
+	border: 1px solid white;
+}
+.contact-form button {
+	color: white;
+	padding: 5px 40px;
+	font-family: 'Lato-Bold';
+	background: none;
+}
+.contact-form button:hover {
+	background: #503392;
+	color: white;
+}
+.address {
+	font-family: 'Lato-Regular';
+	font-size: 33px;
+	margin-top: 110px;
+	margin-bottom: 35px;
+}
+.address-1 {
+	background: url('../img/address-1.png') no-repeat;
+	padding-bottom: 25px;
+}
+.address-1 h2 {
+	font-family: 'Lato-Regular';
+	margin-left: 50px;
+}
+.phone-number {
+	background: url('../img/address-2.png') no-repeat;
+	font-family: 'Lato-Regular';
+	padding-bottom: 25px;
+}
+.phone-number h2 {
+	margin-left: 50px;
+}
+.g-mail {
+	background: url('../img/address-3.png') no-repeat;
+	font-family: 'Lato-Regular';
+	padding-bottom: 25px;
+}
+.g-mail h2 {
+	font-family: 'Lato-Regular';
+	margin-left: 50px;
+}
+.contact-form textarea {
+	padding-bottom: 60px;
+}
+
+/* COPYRIGHT SECTION */
+
+#footer {
+    background-color: #1f1f1f;
+}
+#footer .container {
+    padding: 40px;
+    text-align: center;
+}
+.inline {
+	padding-right: 30px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #555555;
+}
+.fb,.tw,.go,.insta {
+	padding-right: 10px;
+}
